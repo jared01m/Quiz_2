@@ -83,6 +83,13 @@ int main(void) {
     assert(subsetSum(arr2, n, x, s));
     printf("Test 8 passed...\n");
 
+    //Test 9: false
+    n = 5;
+    x = 2;
+    s = 7;
+    assert(!subsetSum(arr2, n, x, s));
+    printf("Test 9 passed...\n");
+
     printf("\nAll tests passed.\n");
     return 0;
 }
